@@ -1,0 +1,29 @@
+bitwise operation  & EXTRACT
+	           | SET
+
+x = 0 0 0 0 0 0 0 0
+
+y = 5 = 0b101
+	
+	y << 2
+
+x| = 0 0 0 1 0 1 0 0 or x|= (y<<2)
+
+
+x = 1 0 1 1 1 0 1 1
+    0 0 1 0 0 0 0 0 
+~   1 1 0 1 1 1 1 1
+&   1 0 0 1 1 0 1 1 
+
+x &= ~(y<<5)
+
+^ 0 0 1 0 0 0 0 0 exclusive
+  1 0 0 1 1 0 1 1
+  1 0 1 1 1 0 1 1
+
+
+
+& AND | OR
+~ NOT ^ XOR
+<< SHIFT LEFT >> SHIFT RIGHT
+ 
